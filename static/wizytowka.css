@@ -1,0 +1,15 @@
+img {
+    width: 250px;
+    height: 250px;
+}
+.second {
+    color:blue;
+}
+.first {
+    background:grey;
+}
+.light:focus {
+    outline: none !important;
+    border:1px solid red;
+    box-shadow: 0 0 10px #719ECE;
+  }

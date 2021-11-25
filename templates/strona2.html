@@ -1,0 +1,20 @@
+{% extends "body.html" %}
+        
+{% block head %}
+<title>Wizytowka - Contact</title>
+{% endblock %}
+
+{% block content %}  
+
+        <h1 class="second"><strong>Kontakt</strong></h1>
+        <ul>
+            <li>Email: janek.wrzos@gmail.com</li>
+            <li>Telefon: 508-234-567</li>
+        </ul>
+        <h1>Wyślij wiadomość</h1>
+        <form action="" method="POST">
+            <textarea class="light", name='wiadomosc'></textarea>
+            <input type="submit">
+        </form>
+
+{% endblock %}
